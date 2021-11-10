@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.titulo {
+    font-family: 'Merriweather', serif;
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+.subtitulo {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 3% 0 7%;
+}
+
+.italico {
+    font-style: italic;
+}
