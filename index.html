@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Técnico</title>
+    <link rel="stylesheet" href="salesforce-lightning-design-system-2.16.2\assets\styles\salesforce-lightning-design-system.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slds-builder-header_container">
+        <header class="slds-builder-header">
+            <!--Back button-->
+            <!--salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#back-->            
+            <!--Mudar ícone na página de detalhes-->
+            <div class="slds-builder-header__item">
+                <a href="#" class="slds-builder-header__item-action" title="Home">
+                    <!--Mudar title-->
+                    <span class="slds-icon_container slds-icon-utility-back slds-current-color">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                            <use xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#home"></use>
+                        </svg>
+                        <span class="slds-assistive-text">Back</span>
+                    </span>
+                </a>
+            </div>
+            <!--App Name-->
+            <div class="slds-builder-header__item">
+                <div class="slds-builder-header__item-label slds-media slds-media_center">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-utility-builder slds-current-color">
+                            <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                <use xlink:href="/salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#builder"></use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">Frutipédia</div>
+                </div>
+            </div>
+            <!--Localização-->
+            <!--Mudar dependendo de qual página está-->
+            <div class="slds-builder-header__item slds-has-flexi-truncate">
+                <h1 class="slds-builder-header__item-label">
+                    <span class="slds-truncate" title="Página atual">Home</span>
+                </h1>
+            </div>
+            <!--Referências-->
+            <div class="slds-builder-header__item slds-builder-header__utilities">
+                <div class="slds-builder-header__utilities-item">
+                    <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
+                        <span class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-utility-settings slds-current-color">
+                                <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                    <!--Mudar ícone-->
+                                    <use xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#help"></use>
+                                </svg>
+                            </span>
+                        </span>
+                        <span class="slds-media__body">
+                            <span class="slds-truncate" title="Referências">Referências</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+    
+
+    <main>
+        <h1 class="slds-align_absolute-center slds-m-bottom_medium titulo">Frutipédia</h1>
+        <h2 class="subtitulo">Conheça mais informações sobre algumas das frutas mais consumidas no Brasil e no mundo.</h2>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered"
+            aria-label="Tabela de frutas, classificação de cada receita e respectivos nomes científicos">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Fruta">Fruta</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Receita">Receita</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Nome científico">Nome científico</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Árvore">Árvore</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Cor">Cor</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Semente">Semente</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Floração">Floração</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Banana-->
+                <tr class="slds-hint-parent">
+                    <th data-label="Fruta" scope="row">
+                        <div class="slds-truncate" title="Banana">
+                            <a href="detalhes-banana.html" tabindex="-1">Banana</a>
+                        </div>
+                    </th>
+                    <td data-label="Receita">
+                        <div class="slds-truncate" title="Doce">Doce</div>
+                    </td>
+                    <td data-label="Nome científico">
+                        <div class="slds-truncate italico" title="Musa sp">Musa sp</div>
+                    </td>
+                    <td data-label="Árvore">
+                        <div class="slds-truncate" title="Bananeira">Bananeira</div>
+                    </td>
+                    <td data-label="Cor">
+                        <div class="slds-truncate" title="Amarelo">Amarelo</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Não possui">Não possui</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Floresce e frutifica o ano todo">Floresce e frutifica o ano todo</div>
+                    </td>
+                </tr>
+                <!--Laranja-->
+                <tr class="slds-hint-parent">
+                    <th data-label="Fruta" scope="row">
+                        <div class="slds-truncate" title="Laranja">
+                            <a href="#" tabindex="-1">Laranja</a>
+                        </div>
+                    </th>
+                    <td data-label="Receita">
+                        <div class="slds-truncate" title="Bebida">Bebida</div>
+                    </td>
+                    <td data-label="Nome científico">
+                        <div class="slds-truncate italico" title="Citrus sinensis">Citrus sinensis</div>
+                    </td>
+                    <td data-label="Árvore">
+                        <div class="slds-truncate" title="Laranjeira">Laranjeira</div>
+                    </td>
+                    <td data-label="Cor">
+                        <div class="slds-truncate" title="Laranja/Verde">Laranja/Verde</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Possui">Possui</div>
+                    </td>
+                    <td data-label="Floração">
+                        <div class="slds-truncate" title="Ocorre após a estação fria">Ocorre após a estação fria</div>
+                    </td>
+                </tr>
+                <!--Morango-->
+                <tr class="slds-hint-parent">
+                    <th data-label="Fruta" scope="row">
+                        <div class="slds-truncate" title="Morango">
+                            <a href="#" tabindex="-1">Morango</a>
+                        </div>
+                    </th>
+                    <td data-label="Receita">
+                        <div class="slds-truncate" title="Doce">Doce</div>
+                    </td>
+                    <td data-label="Nome científico">
+                        <div class="slds-truncate italico" title="Fragaria vesca">Fragaria vesca</div>
+                    </td>
+                    <td data-label="Árvore">
+                        <div class="slds-truncate" title="Morangueiro">Morangueiro</div>
+                    </td>
+                    <td data-label="Cor">
+                        <div class="slds-truncate" title="Vermelho">Vermelho</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Possui">Possui</div>
+                    </td>
+                    <td data-label="Floração">
+                        <div class="slds-truncate" title="Ocorre durante o verão">Ocorre durante o verão</div>
+                    </td>
+                </tr>
+                <!--Pêssego-->
+                <tr class="slds-hint-parent">
+                    <th data-label="Fruta" scope="row">
+                        <div class="slds-truncate" title="Pêssego">
+                            <a href="#" tabindex="-1">Pêssego</a>
+                        </div>
+                    </th>
+                    <td data-label="Receita">
+                        <div class="slds-truncate" title="Bebida">Bebida</div>
+                    </td>
+                    <td data-label="Nome científico">
+                        <div class="slds-truncate italico" title="Prunus persica">Prunus persica</div>
+                    </td>
+                    <td data-label="Árvore">
+                        <div class="slds-truncate" title="Pessegueiro">Pessegueiro</div>
+                    </td>
+                    <td data-label="Cor">
+                        <div class="slds-truncate" title="Amarelo/Vermelho">Amarelo/Vermelho</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Possui">Possui</div>
+                    </td>
+                    <td data-label="Floração">
+                        <div class="slds-truncate" title="Ocorre durante o verão">Ocorre durante o verão</div>
+                    </td>
+                </tr>
+                <!--Uva-->
+                <tr class="slds-hint-parent">
+                    <th data-label="Fruta" scope="row">
+                        <div class="slds-truncate" title="Uva">
+                            <a href="#" tabindex="-1">Uva</a>
+                        </div>
+                    </th>
+                    <td data-label="Receita">
+                        <div class="slds-truncate" title="Doce">Doce</div>
+                    </td>
+                    <td data-label="Nome científico">
+                        <div class="slds-truncate italico" title="Vitis sp">Vitis sp</div>
+                    </td>
+                    <td data-label="Árvore">
+                        <div class="slds-truncate" title="Videira">Videira</div>
+                    </td>
+                    <td data-label="Cor">
+                        <div class="slds-truncate" title="Roxo/Verde">Roxo/Verde</div>
+                    </td>
+                    <td data-label="Semente">
+                        <div class="slds-truncate" title="Possui">Possui</div>
+                    </td>
+                    <td data-label="Floração">
+                        <div class="slds-truncate" title="Seis a treze semanas após o abrolhamento">Seis a treze semanas após o abrolhamento</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
