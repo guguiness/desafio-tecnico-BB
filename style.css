@@ -30,6 +30,11 @@
 
 .titulo-detalhes {
     font-size: 3rem;
+    display: inline-block;
+}
+
+.grid-title {
+    padding: 10px 20px;
 }
 
 .grid-container-item {
@@ -50,7 +55,7 @@
 }
 
 .imagem-detalhes {
-    height: 235px;
+    height: 335px;
     border: 2px solid black;
 }
 .receita-detalhes {
@@ -64,6 +69,14 @@
 }
 
 .grid-container-item-table {
-    grid-row-gap: 20px;
+    grid-row-gap: 27px;
     font-size: 1.01rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-container-main {
+        width: 100%;
+        margin: 8% auto 0;
+        justify-content: center;
+    }
 }
