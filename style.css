@@ -60,14 +60,13 @@
 
 .imagem-detalhes {
     height: 335px;
-    border: 2px solid black;
 }
 
-.grid-image-laranja {
+.grid-image-align {
     margin: 0 auto;
 }
 
-.imagem-laranja {
+.imagem-largura {
     width: 360px;
 }
 
