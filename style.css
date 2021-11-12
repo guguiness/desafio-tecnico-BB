@@ -59,7 +59,8 @@
 }
 
 .imagem-detalhes {
-    height: 335px;
+    height: 200px;
+    margin-left: 5rem;
 }
 
 .grid-image-align {
@@ -83,6 +84,11 @@
 .grid-container-item-table {
     grid-row-gap: 27px;
     font-size: 1.01rem;
+}
+
+.correcao-margem {
+    margin-top: 5%;
+    max-width: 90%;
 }
 
 .referencias-titulo {
