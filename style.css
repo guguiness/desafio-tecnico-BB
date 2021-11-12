@@ -86,9 +86,17 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .titulo {
+        font-size: 3rem;
+        margin-top: 13%;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+    }
+        
     .grid-container-main {
         width: 100%;
         margin: 8% auto 0;
         justify-content: center;
     }
-}
