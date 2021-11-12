@@ -62,6 +62,15 @@
     height: 335px;
     border: 2px solid black;
 }
+
+.grid-image-laranja {
+    margin: 0 auto;
+}
+
+.imagem-laranja {
+    width: 360px;
+}
+
 .receita-detalhes {
     line-height: 1.7rem;
     padding: 20px;

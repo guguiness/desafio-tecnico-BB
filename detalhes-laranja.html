@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Técnico</title>
+    <link rel="stylesheet"
+        href="salesforce-lightning-design-system-2.16.2\assets\styles\salesforce-lightning-design-system.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slds-builder-header_container">
+        <header class="slds-builder-header">
+            <!--Back button-->
+            <div class="slds-builder-header__item">
+                <a href="index.html" class="slds-builder-header__item-action" title="Voltar">
+                    <span class="slds-icon_container slds-icon-utility-back slds-current-color">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                            <use
+                                xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#back">
+                            </use>
+                        </svg>
+                        <span class="slds-assistive-text">Voltar</span>
+                    </span>
+                </a>
+            </div>
+            <!--App Name-->
+            <div class="slds-builder-header__item">
+                <div class="slds-builder-header__item-label slds-media slds-media_center">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-utility-builder slds-current-color">
+                            <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                <use
+                                    xlink:href="/salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#builder">
+                                </use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">Frutipédia</div>
+                </div>
+            </div>
+            <!--Localização-->
+            <div class="slds-builder-header__item slds-has-flexi-truncate">
+                <h1 class="slds-builder-header__item-label">
+                    <span class="slds-truncate" title="Página atual">Detalhes</span>
+                </h1>
+            </div>
+            <!--Referências-->
+            <div class="slds-builder-header__item slds-builder-header__utilities">
+                <div class="slds-builder-header__utilities-item">
+                    <a href="#" class="slds-builder-header__item-action slds-media slds-media_center">
+                        <span class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-utility-settings slds-current-color">
+                                <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                    <use
+                                        xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#help">
+                                    </use>
+                                </svg>
+                            </span>
+                        </span>
+                        <span class="slds-media__body">
+                            <span class="slds-truncate" title="Referências">Referências</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+    <main>
+        <div class="slds-grid slds-wrap slds-grid_align-spread grid-container-main">
+            <!--Item 1 - Título-->
+            <div class="slds-col slds-size_1-of-1 grid-item grid-title">
+                <h1 class="titulo-detalhes">Laranja</h1>
+                <span class="italico">(Citrus sinensis)</span>
+            </div>
+            <!--Item 2 - Descrição e Curiosidade-->
+            <div class=" slds-col slds-grid slds-large-size_2-of-3 slds-size_1-of-1 slds-grid_vertical grid-container-item">
+                <div class="slds-col grid-item sub-grid-item">
+                    <h2>Descrição</h2>
+                    <p>Rica em vitamina C, a laranja é uma fruta rica em ácido cítrico. Indicada para prevenir câncer, ela fortalece o sistema imunológico, reduz o colesterol e protege o coração. A laranja é consumida in natura, em forma de sucos e no preparo de sobremesas.</p>
+                </div>
+                <div class="slds-col grid-item sub-grid-item">
+                    <h2>Curiosidade</h2>
+                    <p>Em locais de clima tropical, as laranjas são esverdeadas. Em locais de clima temperado, as laranjas são mais alaranjadas. Isso acontece devido ao efeito causado pela falta de sol.</p>
+                </div>
+            </div>
+            <!--Item 3 - Imagem-->
+            <div class="slds-col slds-size_0.8-of-3 slds-align-middle grid-image-laranja grid-item">
+                <img src="frutas-conteudo\imagens\laranja\img-laranja.jpg" alt="Uma banana em um fundo branco"
+                    class="imagem-laranja">
+            </div>
+            <!--Item 4 - Receita-->
+            <div class="slds-col slds-size_2-of-3 grid-item receita-detalhes">
+                <h2>Lillet com laranja e alecrim</h2>
+                        <h3 class="header-lista-receita" >Ingredientes:</h3>
+                    <ul class="slds-list_dotted">
+                        <li>1 dose de Lillet gelado</li>
+                        <li>2 doses de club soda gelado</li>
+                        <li>1 tira longa de casca de laranja</li>
+                        <li>2 galhos de alecrim</li>
+                        <li>Cubos de gelo a gosto</li>
+                    </ul>
+                        <h3 class="header-lista-receita">Modo de preparo:</h3>
+                    <ol class="slds-list_ordered">
+                        <li>Esfregue 1 galho de alecrim no interior do copo</li>
+                        <li>Com uma pinça, segure o mesmo galho de alecrim dobrado ao meio e aproxime da chama do fogão. Deixe o alecrim chamuscar até começar a soltar fumaça</li>
+                        <li>Apoie o alecrim chamuscado na tábua e cubra com o copo virado com a boca para baixo – assim a fumaça do alecrim fica presa e passa o sabor de defumado ao copo. Deixe o copo absorvendo os sabores enquanto corta a tira de casca de laranja</li>
+                        <li>Com um descascador de legumes (ou uma faca pequena afiada), corte uma tira longa da casca de laranja</li>
+                        <li>Coloque a tira de casca dentro do copo defumado (sem o alecrim chamuscado)</li>
+                        <li>Adicione o Lillet, cubos de gelo e complete com o club soda</li>
+                        <li>Sirva a seguir com o outro galho de alecrim fresco</li>
+                    </ol>
+            </div>
+            <!--Item 6 - informações nutricionais-->
+            <div class="slds-col slds-grid slds-grid_vertical grid-container-item-table">
+                <!--Calorias-->
+                <div class="slds-col grid-item sub-grid-item">
+                    <table class="slds-table" aria-label="Uma tabela contendo informações sobre os valores de calorias presentes na fruta">
+                        <thead>
+                            <th scope="col"></th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">&#37; Valor diário</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Calorias totais</th>
+                                <td>71Cal</td>
+                                <td>4&#37;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Calorias de gordura</th>
+                                <td>2.5Cal</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Carboidratos-->
+                <div class="slds-col grid-item sub-grid-item">
+                    <table class="slds-table" aria-label="Uma tabela contendo informações sobre os valores de carboidratos presentes na fruta">
+                        <thead>
+                            <th scope="col"></th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">&#37; Valor diário</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Carboidratos totais</th>
+                                <td>18g</td>
+                                <td>6&#37;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Fibra dietética</th>
+                                <td>3.9g</td>
+                                <td>16&#37;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Açúcar</th>
+                                <td>13g</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Vitaminas-->
+                <div class="slds-col grid-item sub-grid-item">
+                    <table class="slds-table" aria-label="Uma tabela contendo informações sobre os valores de carboidratos presentes na fruta">
+                        <thead>
+                            <th scope="col"></th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">&#37; Valor diário</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Vitamina A</th>
+                                <td>17&#181;g</td>
+                                <td>1&#37;</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Vitamina C</th>
+                                <td>78mg</td>
+                                <td>130&#37;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
