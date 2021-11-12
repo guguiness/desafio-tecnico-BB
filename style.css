@@ -24,7 +24,7 @@
 }
 
 .grid-item {
-    background-color: #a8dadc; 
+    background-color: #FFB433; 
     border-radius: 4px;
 }
 
@@ -35,6 +35,10 @@
 
 .grid-title {
     padding: 10px 20px;
+}
+
+.slds-col h2 {
+    font-weight: bold;
 }
 
 .grid-container-item {
