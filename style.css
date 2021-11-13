@@ -16,33 +16,13 @@
     font-style: italic;
 }
 
-.grid-container-main {
-    width: 90%;
-    margin: 5% auto 0;
-    grid-row-gap: 20px;
-    grid-column-gap: 10px;
+
+.detalhes-header {
+    margin-bottom: 20px;
 }
 
-.grid-item {
-    background-color: #a8dadc; 
-    border-radius: 4px;
-}
-
-.titulo-detalhes {
-    font-size: 3rem;
-}
-
-.grid-container-item {
-    grid-row-gap: 20px;
-    font-size: 1.2rem;
-}
-
-.sub-grid-item {
-    padding: 20px;
-}
-
-.sub-grid-item h2 {
-    margin: 0 0 10px;
+.margem-cima {
+    margin-top: 20px;
 }
 
 .imagem-detalhes, .sub-grid-item p {
@@ -50,9 +30,10 @@
 }
 
 .imagem-detalhes {
-    height: 235px;
-    border: 2px solid black;
+    height: 200px;
+    margin-left: 5rem;
 }
+
 .receita-detalhes {
     line-height: 1.7rem;
     padding: 20px;
@@ -63,7 +44,49 @@
     margin-top: 20px;
 }
 
-.grid-container-item-table {
-    grid-row-gap: 20px;
-    font-size: 1.01rem;
+.correcao-margem {
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+.referencias-titulo {
+    font-size: 5rem;
+    margin-top: 6.5%;
+}
+
+.referencias-container {
+    padding: 2rem;
+    line-height: 1.3rem;
+}
+
+.referencias-container h2 {
+    margin: 0 0 1.5rem;
+    font-weight: bold;
+}
+
+.referencias-container p {
+    margin: 0 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .correcao-margem {
+        margin-top: 20%;
+    }
+
+    .imagem-detalhes {
+        height: 100px;
+    }
+    
+    .titulo {
+        font-size: 3rem;
+        margin-top: 13%;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .referencias-container p {
+        margin: 0 0 20px;
+    }
 }

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Técnico</title>
+    <link rel="stylesheet"
+        href="salesforce-lightning-design-system-2.16.2\assets\styles\salesforce-lightning-design-system.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slds-builder-header_container">
+        <header class="slds-builder-header">
+            <!--Back button-->
+            <div class="slds-builder-header__item">
+                <a href="index.html" class="slds-builder-header__item-action" title="Voltar">
+                    <span class="slds-icon_container slds-icon-utility-back slds-current-color">
+                        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                            <use
+                                xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#back">
+                            </use>
+                        </svg>
+                        <span class="slds-assistive-text">Voltar</span>
+                    </span>
+                </a>
+            </div>
+            <!--App Name-->
+            <div class="slds-builder-header__item">
+                <div class="slds-builder-header__item-label slds-media slds-media_center">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-utility-builder slds-current-color">
+                            <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                <use
+                                    xlink:href="/salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#builder">
+                                </use>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">Frutipédia</div>
+                </div>
+            </div>
+            <!--Localização-->
+            <div class="slds-builder-header__item slds-has-flexi-truncate">
+                <h1 class="slds-builder-header__item-label">
+                    <span class="slds-truncate" title="Página atual">Detalhes</span>
+                </h1>
+            </div>
+            <!--Referências-->
+            <div class="slds-builder-header__item slds-builder-header__utilities">
+                <div class="slds-builder-header__utilities-item">
+                    <a href="/referencias.html" class="slds-builder-header__item-action slds-media slds-media_center">
+                        <span class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-utility-settings slds-current-color">
+                                <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                    <use
+                                        xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#help">
+                                    </use>
+                                </svg>
+                            </span>
+                        </span>
+                        <span class="slds-media__body">
+                            <span class="slds-truncate" title="Referências">Referências</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+    <main>
+        <!--Grid-->
+        <div class="slds-grid slds-wrap slds-gutters slds-container_center correcao-margem">
+
+            <!--Header-->
+            <div class="slds-grid_vertical slds-page-header slds-size_1-of-1 detalhes-header">
+                <div class="slds-page-header__row">
+                    <div class="slds-page-header__col-title">
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity" title="opportunity">
+                                    <svg class="slds-icon slds-page-header__icon" aria-hidden="true">
+                                        <use
+                                            xlink:href="/salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#all">
+                                        </use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Nome da fruta</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <div class="slds-page-header__name">
+                                    <div class="slds-page-header__name-title">
+                                        <h1>
+                                            <span class="slds-page-header__title slds-truncate"
+                                                title="Rohde Corp - 80,000 Widgets">Pêssego</span>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <p class="slds-page-header__name-meta italico">Prunus persica</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Seção: descrição e curiosidade-->
+            <div class="slds-grid slds-grid_vertical slds-size_1-of-1 slds-large-size_2-of-3">
+                <!--Descrição-->
+                <article class="slds-card slds-col slds-size_1-of-1">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use
+                                            xlink:href="/salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#text">
+                                        </use>
+                                    </svg>
+                                    <span class="slds-assistive-text">descrição da fruta</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Descrição</span>
+                                    </a>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">O pêssego é uma fruta rica em antioxidantes. Ele possui os minerais fósforo, magnésio, manganês, cobre, iodo e ferro, além de vitaminas A, C e do complexo B. Apresenta um sabor suave e adocicado, sendo consumido em sua forma natural ou ainda em compota.
+                    </div>
+                </article>
+
+                <!--Curiosidade-->
+                <article class="slds-card slds-col slds-size_1-of-1">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use
+                                            xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/utility-sprite/svg/symbols.svg#chat">
+                                        </use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Curiosidade sobre fruta</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Curiosidade</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">Essa fruta possui níveis altos de antioxidantes. Especificamente o pêssego possui um antioxidante, o ácido clorogênico, que é conhecido por proteger o corpo contra o câncer e outras doenças crônicas. Esse antioxidante também é responsável pela redução de inflamações no corpo, uma ótima dica para quem sofre de artrite, e ajuda a adiar o processo de envelhecimento.</div>
+                </article>
+            </div>
+
+            <!--Imagem-->
+            <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-3">
+                <article class="slds-card">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-task" title="task">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use
+                                            xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#photo">
+                                        </use>
+                                    </svg>
+                                    <span class="slds-assistive-text">imagem</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Imagem</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">
+                        <div class="slds-illustration slds-illustration_small">
+                            <img src="public\imagens\pessego\img-pessego.jpg" alt="Uma banana em um fundo branco"
+                                class="imagem-detalhes">
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!--Receita-->
+            <article class="slds-card slds-size_1-of-1 slds-large-size_2-of-3 margem-cima">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                    <use
+                                        xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#account">
+                                    </use>
+                                </svg>
+                                <span class="slds-assistive-text">receita</span>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                <span>Receita</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <h2>Milk Shake de pêssego</h2>
+                    <h3 class="header-lista-receita">Ingredientes:</h3>
+                    <ul class="slds-list_dotted">
+                        <li>1 caixinha de creme de leite</li>
+                        <li>3 copos de leite desnatado</li>
+                        <li>1/2 xícara (chá) de sorvete de creme</li>
+                        <li>2 colheres (sopa) de açúcar</li>
+                        <li>2 pêssegos</li>    
+                    </ul>
+                    <h3 class="header-lista-receita">Modo de preparo:</h3>
+                    <ol class="slds-list_ordered">
+                        <li>No liquidificador, bata o leite e os pêssegos</li>
+                        <li>Acrescente o creme de leite e continue a bater</li>
+                        <li>Adicione os ingredientes restantes e bata mais um pouquinho</li>
+                        <li>Sirva bem gelado</li>
+                    </ol>
+                </div>
+            </article>
+
+            <!--Seção: informações nutricionais-->
+            <article class="slds-col slds-card  slds-size_1-of-1 slds-large-size_1-of-3 margem-cima">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                    <use
+                                        xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#account">
+                                    </use>
+                                </svg>
+                                <span class="slds-assistive-text">Informações nutricionais</span>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                <span>Informações nutricionais</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+
+                    <!--Calorias-->
+                    <article class="slds-card">
+                        <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                                    <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                            <use
+                                                xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#account">
+                                            </use>
+                                        </svg>
+                                        <span class="slds-assistive-text">Calorias</span>
+                                    </span>
+                                </div>
+                                <div class="slds-media__body">
+                                    <h2 class="slds-card__header-title">
+                                        <span>Calorias</span>
+                                    </h2>
+                                </div>
+                            </header>
+                        </div>
+                        <div class="slds-card__body slds-card__body_inner">
+                            <table class="slds-table"
+                                aria-label="Uma tabela contendo informações sobre os valores de calorias presentes na fruta">
+                                <thead>
+                                    <th scope="col"></th>
+                                    <th scope="col">Valor</th>
+                                    <th scope="col">&#37; Valor diário</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Calorias totais</th>
+                                        <td>59 Cal</td>
+                                        <td>3&#37;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Calorias de gordura</th>
+                                        <td>3.1 Cal</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <!--Carboidratos-->
+                    <article class="slds-card">
+                        <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                                    <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                            <use
+                                                xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#account">
+                                            </use>
+                                        </svg>
+                                        <span class="slds-assistive-text">Carboidratos</span>
+                                    </span>
+                                </div>
+                                <div class="slds-media__body">
+                                    <h2 class="slds-card__header-title">
+                                        <span>Carboidratos</span>
+                                    </h2>
+                                </div>
+                            </header>
+                        </div>
+                        <div class="slds-card__body slds-card__body_inner">
+                            <table class="slds-table"
+                                aria-label="Uma tabela contendo informações sobre os valores de carboidratos presentes na fruta">
+                                <thead>
+                                    <th scope="col"></th>
+                                    <th scope="col">Valor</th>
+                                    <th scope="col">&#37; Valor diário</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Carboidratos totais</th>
+                                        <td>14g</td>
+                                        <td>5&#37;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Fibra dietética</th>
+                                        <td>2.3g</td>
+                                        <td>9&#37;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Açúcar</th>
+                                        <td>13g</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+
+                    <!--Vitaminas-->
+                    <article class="slds-card">
+                        <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                                    <span class="slds-icon_container slds-icon-standard-account" title="account">
+                                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                            <use
+                                                xlink:href="salesforce-lightning-design-system-2.16.2/assets/icons/standard-sprite/svg/symbols.svg#account">
+                                            </use>
+                                        </svg>
+                                        <span class="slds-assistive-text">Vitaminas</span>
+                                    </span>
+                                </div>
+                                <div class="slds-media__body">
+                                    <h2 class="slds-card__header-title">
+                                        <span>Vitaminas</span>
+                                    </h2>
+                                </div>
+                            </header>
+                        </div>
+                        <div class="slds-card__body slds-card__body_inner">
+                            <table class="slds-table"
+                                aria-label="Uma tabela contendo informações sobre os valores de vitaminas presentes na fruta">
+                                <thead>
+                                    <th scope="col"></th>
+                                    <th scope="col">Valor</th>
+                                    <th scope="col">&#37; Valor diário</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Vitamina A</th>
+                                        <td>24&#181;g</td>
+                                        <td>2&#37;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vitamina C</th>
+                                        <td>9.9mg</td>
+                                        <td>16&#37;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </div>
+    </main>
+</body>
+
+</html>
