@@ -16,42 +16,13 @@
     font-style: italic;
 }
 
-.grid-container-main {
-    width: 90%;
-    margin: 5% auto 0;
-    grid-row-gap: 20px;
-    grid-column-gap: 10px;
+
+.detalhes-header {
+    margin-bottom: 20px;
 }
 
-.grid-item {
-    background-color: #BADDFF; 
-    border-radius: 4px;
-}
-
-.titulo-detalhes {
-    font-size: 3rem;
-    display: inline-block;
-}
-
-.grid-title {
-    padding: 10px 20px;
-}
-
-.slds-col h2 {
-    font-weight: bold;
-}
-
-.grid-container-item {
-    grid-row-gap: 20px;
-    font-size: 1.2rem;
-}
-
-.sub-grid-item {
-    padding: 20px;
-}
-
-.sub-grid-item h2 {
-    margin: 0 0 10px;
+.margem-cima {
+    margin-top: 20px;
 }
 
 .imagem-detalhes, .sub-grid-item p {
@@ -63,14 +34,6 @@
     margin-left: 5rem;
 }
 
-.grid-image-align {
-    margin: 0 auto;
-}
-
-.imagem-largura {
-    width: 360px;
-}
-
 .receita-detalhes {
     line-height: 1.7rem;
     padding: 20px;
@@ -79,11 +42,6 @@
 
 .header-lista-receita {
     margin-top: 20px;
-}
-
-.grid-container-item-table {
-    grid-row-gap: 27px;
-    font-size: 1.01rem;
 }
 
 .correcao-margem {
@@ -107,6 +65,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .correcao-margem {
+        margin-top: 20%;
+    }
+
+    .imagem-detalhes {
+        height: 100px;
+    }
+    
     .titulo {
         font-size: 3rem;
         margin-top: 13%;
@@ -114,11 +80,5 @@
 
     .subtitulo {
         font-size: 1.5rem;
-    }
-        
-    .grid-container-main {
-        width: 100%;
-        margin: 8% auto 0;
-        justify-content: center;
     }
 }
