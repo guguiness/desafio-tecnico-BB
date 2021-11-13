@@ -56,12 +56,16 @@
 
 .referencias-container {
     padding: 2rem;
-    line-height: 1.8rem;
+    line-height: 1.3rem;
 }
 
 .referencias-container h2 {
     margin: 0 0 1.5rem;
     font-weight: bold;
+}
+
+.referencias-container p {
+    margin: 0 0 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,5 +84,9 @@
 
     .subtitulo {
         font-size: 1.5rem;
+    }
+
+    .referencias-container p {
+        margin: 0 0 20px;
     }
 }
