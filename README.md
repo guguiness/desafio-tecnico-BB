@@ -27,6 +27,6 @@ Já na página de detalhes de cada item, há informações como:
 
 Há também uma página de referências, que pode ser acessada pela barra de navegação.
 
-## Bugs
-- Há um problema na importação de alguns arquivos do SLDS, o que faz com que as páginas quebrem quando acessadas direto do arquivo. Entretanto, quando os arquivos são abertos pelo Visual Studio Code usando a extensão "Live Server", os arquivos do SLDS são importados normalmente;
-- A tabela da página de itens (arquivo "index.html") não é responsiva devido à tabela, que dificulta esse processo.
+## Responsividade
+- A tabela da página de itens (arquivo "index.html") não é responsiva devido à tabela, que dificulta esse processo;
+- Entretanto, todas as outras páginas do projeto são responsivas.
