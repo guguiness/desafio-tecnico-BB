@@ -1,4 +1,4 @@
-# Desafio Técnico - Blue Bear
+# Website Salesforce
 ## Requisitos
 O projeto foi desenvolvido seguindo os seguintes requisitos:
   - Conter ao menos 2 páginas;
